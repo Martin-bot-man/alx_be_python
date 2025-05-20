@@ -1,5 +1,5 @@
-number1 = int(input("Enter a number: "))
-number2 = int(input("Enter another number: "))
+number1 = 5;
+number2 = 10;
 operation = input("Enter an operation(+, -,*, /)  to perform: ")
 if operation == "+":
     result = number1 + number2
