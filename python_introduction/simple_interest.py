@@ -1,5 +1,5 @@
-principal = 1000;
-rate = 0.05;
-time = 3;
-simple_interest = (principal*rate* time)/100;
-print (f"simple interest is {simple_interest}");
+p = 1000;
+r = 0.05;
+t = 3;
+i = (p*r* t)/100;
+print (f"simple interest is {i}");
