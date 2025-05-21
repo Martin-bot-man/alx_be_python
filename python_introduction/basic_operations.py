@@ -1,17 +1,18 @@
-number1 = 5;
-number2 = 10;
-operation = input("Enter an operation(+, -,*, /)  to perform: ")
-if operation == "+":
-    result = number1 + number2
-elif operation == "-":
-    result =number1 - number2
-elif operation == "*":
-    result = number1* number2
-elif operation == number1/number2:
-    result=number1/number2
-else:
 
-    print("Invalid operation. Please enter one of the following: +, -, *, /")
-    exit()
-print(f"The result of {number1} {operation} {number2} is: {result}")
+# Filename: basic_operations.py
 
+# Define the variables
+number1 = 10
+number2 = 5
+
+# Calculate the sum
+sum_result = number1 + number2
+print(f"Sum of {number1} and {number2} is {sum_result}")
+
+# Calculate the difference
+difference_result = number1 - number2
+print(f"Difference of {number1} and {number2} is {difference_result}")
+
+# Calculate the product
+product_result = number1 * number2
+print(f"Product of {number1} and {number2} is {product_result}")
