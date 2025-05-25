@@ -1,7 +1,7 @@
 monthly_income= int(input("Enter your monthly income:"));
-monthly_expense = int(input ("Enter your total monthly expenses:"));
+monthly_expenses = int(input ("Enter your total monthly expenses:"));
 
-monthly_savings = float(monthly_income) - float(monthly_expense);
+monthly_savings = float(monthly_income) - float(monthly_expenses);
 
 annual_interest_rate = 0.05;
 
