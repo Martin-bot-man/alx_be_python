@@ -10,18 +10,18 @@ def daily_reminder():
 
     Task= input("Task? ")    
     priority = input("priority ? (high / medium / low) ")
-    Time_sensitivity = input("Time Bound? (yes / no) ")
-    if priority.lower() == "high" and Time_sensitivity.lower() =="yes":
+    Time_Bound = input("Time Bound? (yes / no) ")
+    if priority.lower() == "high" and Time_Bound.lower() =="yes":
         print("You should complete this task today. ")
-    elif priority.lower() == "high" and Time_sensitivity.lower() =="no":
+    elif priority.lower() == "high" and Time_Bound.lower() =="no":
         print("You should complete this task within the next few days. ")
-    elif priority.lower() == "medium" and Time_sensitivity.lower() =="yes":
+    elif priority.lower() == "medium" and Time_Bound.lower() =="yes":
         print("You should complete this task within the next few days. ")
-    elif priority.lower() == "medium" and Time_sensitivity.lower() =="no":
+    elif priority.lower() == "medium" and Time_Bound.lower() =="no":
         print("You should complete this task within the next week. ")
-    elif priority.lower() == "low" and Time_sensitivity.lower() =="yes":
+    elif priority.lower() == "low" and Time_Bound.lower() =="yes":
         print("You should complete this task within the next week. ")
-    elif priority.lower() == "low" and Time_sensitivity.lower() =="no":
+    elif priority.lower() == "low" and Time_Bound.lower() =="no":
         print("You can complete this task whenever you have time. ")
     else:
         print("Invalid input. Please try again.")
