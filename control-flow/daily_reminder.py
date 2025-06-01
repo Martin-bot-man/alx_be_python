@@ -8,9 +8,9 @@ def daily_reminder():
     print("Let's get started!")
     print("Please enter the details of your task:")
 
-    Task= input("What is your task for today? ")    
-    priority = input("what is the priority of your task? (high / medium / low) ")
-    Time_sensitivity = input("Is your task time-sensitive? (yes / no) ")
+    Task= input("Task? ")    
+    priority = input("priority ? (high / medium / low) ")
+    Time_sensitivity = input("Time Bound? (yes / no) ")
     if priority.lower() == "high" and Time_sensitivity.lower() =="yes":
         print("You should complete this task today. ")
     elif priority.lower() == "high" and Time_sensitivity.lower() =="no":
