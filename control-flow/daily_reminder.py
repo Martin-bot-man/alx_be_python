@@ -5,7 +5,7 @@
 print("This program will help you manage your daily tasks based on their priority and time sensitivity.")
     
 Task = input("Enter your task: ")    
-Time_Bound = input("Is it time-bound ? (yes/no): ")
+time_bound_str = input("Is it time-bound? (yes/no): ")
 priority = input("Priority (high/medium/low): ")
 
 
