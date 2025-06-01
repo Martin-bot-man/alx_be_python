@@ -4,9 +4,11 @@
 
 print("This program will help you manage your daily tasks based on their priority and time sensitivity.")
     
-Task = input("Task? ")    
-priority = input("priority ? (high / medium / low) ")
-Time_Bound = input("Time Bound? (yes / no) ")
+Task = input("Enter your task: ")    
+Time_Bound = input("Is it time-bound? (yes / no): ")
+priority = input("Priority (high / medium / low): ")
+
+
 if priority.lower() == "high" and Time_Bound.lower() =="yes":
         print("You should complete this task today. ")
 elif priority.lower() == "high" and Time_Bound.lower() =="no":
