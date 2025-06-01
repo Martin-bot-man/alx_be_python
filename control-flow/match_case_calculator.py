@@ -16,7 +16,7 @@ match operation:
          else:
             result = "Error: Division by zero is not allowed."
 
-result = result if isinstance(result, str) else f"The result is: {result}"
-print(result)
+
+print(f"The result is: {result}")
             
     
