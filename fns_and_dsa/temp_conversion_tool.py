@@ -1,5 +1,6 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR= 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR= 5 / 9
+
 
 user_input = float(input('Enter the temperature: '))
 prompt = input('Is this in Fahrenheit or Celsius? (F/C): ').strip().upper()
