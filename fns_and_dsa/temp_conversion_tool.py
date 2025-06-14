@@ -21,5 +21,5 @@ elif prompt == "C":
       converted_temp = convert_to_fahrenheit(user_input)
       print(f"{user_input}°C is equal to {converted_temp:.2f}°F")
 else: 
-      print("Invalid temperature. Please enter a numeric value")     
+      print("Invalid temperature. Please enter a numeric value." ) 
 
