@@ -1,4 +1,4 @@
-class BankAccount():
+class BankAccount:
     def __init__(self, balance=0 ):
         self.balance = balance;
 
@@ -17,5 +17,4 @@ class BankAccount():
     def display_balance(self):
         return self.balance
     def __str__(self):
-        return f"BankAccount(balance = {self.balance})"  
-         
+         return f"BankAccount(balance={self.balance})"
