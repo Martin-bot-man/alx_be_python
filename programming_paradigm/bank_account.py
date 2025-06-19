@@ -14,8 +14,7 @@ class BankAccount:
             return True
         else:
             return False
-    def Current_Balance(self):
-        return self.balance
+    
         
     
 def display_balance(self):
