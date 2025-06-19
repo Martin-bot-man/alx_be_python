@@ -18,4 +18,4 @@ class BankAccount:
         
     
 def display_balance(self):
-    return f"Current balance: {self.balance:.2f}" if self.balance >= 0 else "Balance is negative"
+    return f"Current Balance: {self.balance:.2f}" if self.balance >= 0 else "Balance is negative"
