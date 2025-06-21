@@ -21,3 +21,6 @@ class SimpleCalculator(unittest.TestCase):
     def test_division(self):
         self.assertEqual(self.calc.divide(4,2),2)
         self.assertEqual(self.calc.divide(12,-2),10)             
+
+if __name__ == '__main__':
+ unittest.main()
