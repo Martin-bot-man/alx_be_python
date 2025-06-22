@@ -16,5 +16,5 @@ class Library:
             print(f"{self.title} is available")  
         else :
             print(f"{self.title} has been issued")
-    def _is_checked_out(self)
+    def _is_checked_out(self):
         return self._is_checked_out              
