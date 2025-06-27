@@ -4,7 +4,7 @@ class Book:
         self.author = author
 
 class EBook(Book):
-    def __init__(self, title, author, file_size:int):
+    def __str__(self, title, author, file_size:int):
         super().__init__(title, author)
         if not isinstance(file_size,int) or file_size <=0:
             raise ValueError("File size must be a positive integer")
